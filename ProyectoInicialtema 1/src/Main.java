@@ -9,4 +9,6 @@ System.out.println("Esta es la quinta linea");
 System.out.println("Esta es la sexta linea");
 System.out.println("Esta es la septima linea");
 System.out.println(6);
-System.out.println(8<9); }}
+System.out.println(7);
+System.out.println("mas linea de codigo");
+System.out.println("sistema hexadecimal ordenado de forma logica");}}
