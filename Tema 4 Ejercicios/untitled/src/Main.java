@@ -11,7 +11,10 @@ public class Main {
         System.out.println("Indica la frase que quieres analizar");
         String frase = scanner.nextLine();
         String[]frases = frase.split("\\.");
-        System.out.println("El numero de oraciones es"+frases.length);
+        frase.replaceAll(" ","").replaceAll(",","").replaceAll(",","");
+        System.out.println("El resultado es"+frasePalabras);
+        System.out.println("El numero de oraciones es" +frases.length);
+        System.out.println("El numero de letras es"+frasePalabras.length);
 
 
     }
